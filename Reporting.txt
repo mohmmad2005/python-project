@@ -1,0 +1,75 @@
+(Weather Data Analysis Summary)
+
+
+
+(Basic Statistics)
+
+Temperature (°C) :
+- Mean : 11.94°C
+- Median : 12.03°C 
+- Max : 39.91°C
+- Min : -21.82°C
+
+Humidity :
+- Mean : 0.735
+- Median : 0.78
+- Max : 1.0
+- Min : 0.0
+
+Wind Speed (km/h) :
+- Mean : 10.80 km/h
+- Median : 9.93 km/h
+- Max : 63.85 km/h
+- Min : 0.0 km/h
+
+
+
+(Weather Condition Counts)
+
+- Rainy days : 85,224
+- Snowy days : 10,712
+- Sunny days : 10,763
+- Cloudy days : 60,711
+
+
+
+(Key Insights)
+
+- Hottest Day : July 22, 2007 (39.91°C) 
+- Coldest Day : February 10, 2012 (-21.82°C)
+
+- Correlation between Temperature and Humidity :
+  A moderate negative correlation exists, meaning as temperature increases, humidity tends to decrease.
+
+- Do Rainy Days Tend to Have Lower Temperatures?
+  No – rainy days are warmer on average than non-rainy days :
+  Rainy : 13.85°C
+  Non-rainy : -3.27°C
+
+- Wind Speed by Weather Type :
+  Rain : 10.97 km/h
+  Snow : 9.48 km/h
+  Rainy days are associated with slightly stronger winds.
+
+
+
+(Visualizations Included)
+
+- Histogram : Temperature Distribution.
+- Bar Chart : Weather Conditions.
+- Line Plots : Monthly Averages (Temperature, Humidity, Rainy Days).
+- Scatter Plot : Temperature vs. Humidity.
+- Heatmap : Correlation Matrix.
+- Box Plot : Temperature by Precip Type.
+
+
+
+(Conclusion)
+
+This EDA on weather data uncovered clear patterns :
+- Rain is more frequent than snow.
+- Rainy days are warmer and windier.
+- Humidity and temperature show inverse behavior.
+- Seasonal trends are observable in temperature and humidity.
+
+These findings enhance understanding of weather dynamics and support future forecasting or climate-related analysis.
