@@ -87,7 +87,7 @@ plt.show()
 
 # get summaries from 10 to 20
 summary_counts = df['Summary'].value_counts()
-selected_summaries = summary_counts.iloc[9:20]
+selected_summaries = summary_counts.iloc[10:20]
 plt.figure(figsize=(10, 4))
 selected_summaries.plot(kind='bar', color='skyblue', edgecolor='black')
 plt.title('Weather Summaries from 10 to 20')
