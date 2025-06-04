@@ -1,0 +1,49 @@
+1) Data Loading and Cleaning
+
+We started by loading the dataset and making sure the dates were correctly parsed. The Date column was set as the index for easier time-based analysis.
+ Any missing values in the precipitation type were removed to keep the data clean.
+
+
+
+2) Basic Statistics
+
+We calculated basic statistics such as mean, median, minimum, and maximum for temperature, wind speed, humidity, pressure, wind bearing, and visibility.
+ We also looked at how often different precipitation types and weather summaries appear in the data.
+
+
+
+3) Univariate Analysis
+
+We visualized the distribution of temperature, humidity, and wind speed using histograms.
+Bar charts helped us understand how frequently different precipitation types and weather conditions occur.
+
+
+
+4) Time Series Trends
+
+We examined daily, monthly, and yearly averages for temperature, pressure, wind bearing, visibility, humidity, and wind speed.
+These time series plots revealed clear seasonal trends and long-term changes in the weather variables.
+
+
+
+5) Bivariate Analysis and Correlations
+
+The correlation between temperature and humidity was calculated, showing a correlation coefficient of approximately corr / temp / hum.
+ This suggests that temperature and humidity are [negatively/positively] related.
+On rainy days, the average temperature was about rainy avg degrees Celsius, which is lower than the average temperature of dry avg degrees Celsius on dry days. 
+This indicates that rainy days tend to be cooler.
+Wind speed and visibility varied depending on the type of precipitation, reflecting different weather conditions.
+
+
+
+6) Key Insights
+
+The hottest day in the dataset was on hottest date with a temperature of hottest temp degrees Celsius.
+The coldest day was on coldest date with a temperature of coldest temp degrees Celsius.
+Temperature and humidity showed a correlation coefficient of corr / temp / hum.
+Rainy days are generally cooler than dry days.
+Wind speed and visibility differ based on precipitation type, showing how weather conditions affect these variables.
+
+
+
+7) All visualizations and detailed statistics are included in the previous sections.
